@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <PropertyList>
     <name>addon-simbrief-dialog</name>
 	<layout>vbox</layout>
@@ -21,7 +21,7 @@
 		<button>
 			<pref-width>16</pref-width>
 			<pref-height>16</pref-height>
-			<legend></legend>
+			<legend />
 			<keynum>27</keynum>
 			<border>2</border>
 			<binding>
@@ -30,7 +30,7 @@
 		</button>
     </group>
 
-    <hrule/>
+    <hrule />
 
     <group>
         <layout>vbox</layout>
@@ -67,7 +67,7 @@
                 <stretch>1</stretch>
             </empty>
         </group>
-        <hrule/>
+        <hrule />
         <group>
             <layout>hbox</layout>
             <group>
@@ -218,7 +218,7 @@
             <empty>
             </empty>
         </group>
-        <hrule/>
+        <hrule />
         <group>
             <layout>hbox</layout>
             <text>
@@ -238,11 +238,11 @@
                 </binding>
             </button>
             <button>
-                <legend>Activate</legend>
-                <binding>
-                    <command>nasal</command>
-                    <script>commitFlightplan()</script>
-                </binding>
+              <legend>Activate</legend>
+              <binding>
+                <command>nasal</command>
+                <script>globals.commitFlightplan();</script>
+              </binding>
             </button>
             <!-- uncomment for development: -->
             <!--
@@ -259,4 +259,3 @@
     </group>
 
 </PropertyList>
-

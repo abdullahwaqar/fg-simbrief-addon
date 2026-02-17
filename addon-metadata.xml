@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version="1.0" encoding="UTF-8" ?>
 <PropertyList>
   <meta>
     <file-type type="string">FlightGear add-on metadata</file-type>
@@ -7,11 +6,16 @@
   </meta>
 
   <addon>
-    <identifier type="string">nl.tobiasdammers.fg-simbrief-addon</identifier>
-    <name type="string">SimBrief importer</name>
-    <version type="string">0.1.0</version>
+    <identifier type="string">com.abdullahwaqar.fg-simbrief-addon</identifier>
+    <name type="string">SimBrief Importer (Hardened)</name>
+    <version type="string">0.2.0</version>
 
     <authors>
+      <author>
+        <name type="string">Abdullah Waqar</name>
+        <email type="string">awr17h@pm.me</email>
+        <url type="string">https://github.com/abdullahwaqar</url>
+      </author>
       <author>
         <name type="string">Tobias Dammers</name>
         <email type="string">tdammers@gmail.com</email>
@@ -21,24 +25,24 @@
 
     <maintainers>
       <maintainer>
-        <name type="string">Tobias Dammers</name>
-        <email type="string">tdammers@gmail.com</email>
-        <url type="string">https://github.com/tdammers</url>
+        <name type="string">Abdullah</name>
+        <email type="string">awr17h@pm.me</email>
+        <url type="string">https://github.com/abdullahwaqar</url>
       </maintainer>
     </maintainers>
 
     <short-description type="string">
-      SimBrief importer
+      Hardened SimBrief flight plan importer for FlightGear
     </short-description>
 
     <long-description type="string">
+      Improved and hardened SimBrief importer that safely parses OFP data,
+      avoids route parsing hangs, and provides better compatibility with
+      modern FlightGear versions.
     </long-description>
 
     <license>
-      <designation type="string">
-        MIT
-      </designation>
-
+      <designation type="string">MIT</designation>
       <url type="string">https://mit-license.org/</url>
     </license>
 
@@ -47,18 +51,15 @@
 
     <urls>
       <home-page type="string">
-        https://github.com/tdammers/fg-simbrief-addon
+        https://github.com/abdullahwaqar/fg-simbrief-addon
       </home-page>
 
       <download type="string">
-        https://github.com/tdammers/fg-simbrief-addon
+        https://github.com/abdullahwaqar/fg-simbrief-addon
       </download>
 
-      <support type="string">
-      </support>
-
       <code-repository type="string">
-        https://github.com/tdammers/fg-simbrief-addon
+        https://github.com/abdullahwaqar/fg-simbrief-addon
       </code-repository>
     </urls>
 
@@ -66,6 +67,8 @@
       <tag type="string">simbrief</tag>
       <tag type="string">flightplan</tag>
       <tag type="string">routemanager</tag>
+      <tag type="string">ofp</tag>
+      <tag type="string">importer</tag>
     </tags>
 
   </addon>
